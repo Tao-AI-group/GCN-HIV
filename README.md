@@ -28,7 +28,7 @@ scipy, scikit-learn, numpy, tensorflow1
 ## Run
 The script will automatically run all the folds. (Make sure to make the results/ folder first)
 sh SCRIPT.sh -> e.g. sh run_chicago_sex.sh
-The results will be generated in the results/ folder in about 10-40 mins for different models.
+The results will be generated in the results/ folder in about 10-20 mins for different models.
 
 ## Get mean and std of AUC
 The running script will output the optimal value for each fold at the final line.
