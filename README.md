@@ -21,7 +21,7 @@ Python3.6+, Tensorflow1.14+ and corresponding versions of scipy, scikit-learn, n
 
 ## Parameters
 - Under each folder, there is json format config file to change the hyperparameters.  
-- Change the model type by specifying gcn or gat in the config file as you like.  
+- Change the model version by specifying gcn or gat in the config file as you like.  
 - In patient_loader.py under each folder (in folder data_loader/), you can also set REDUCE_GRAPH_FEATURES as True or False to enable hiv positive rate and syphilis positive rate of neighborhood as features.
 
 ## Run
