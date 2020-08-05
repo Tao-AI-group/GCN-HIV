@@ -37,3 +37,14 @@ python summarize_results.py PATH_OF_RESULTS -> e.g. python summarize_results.py 
 ## Notes
 For running models on the sex or venue network, for example in src_gnn/models/gat.py, you have to switch the definition of logits to the corresponding one (e.g. bias_mat=self.bias_in_sex or self.bias_in_venue). You need also change the output directory in the run_XX.sh file to specify the output directory.  
 
+## Cite
+@article{xiang2019network,  
+  title={Network context matters: graph convolutional network model over social networks improves the detection of unknown HIV infections among young men who have sex with men},  
+  author={Xiang, Yang and Fujimoto, Kayo and Schneider, John and Jia, Yuxi and Zhi, Degui and Tao, Cui},  
+  journal={Journal of the American Medical Informatics Association},  
+  volume={26},  
+  number={11},  
+  pages={1263--1271},  
+  year={2019},  
+  publisher={Oxford University Press}  
+}  
