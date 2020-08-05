@@ -20,7 +20,8 @@ Need a social network stored using adjacency matrix and a matrix of individual v
 Python3.6+, Tensorflow1.14+ and corresponding versions of scipy, scikit-learn, numpy, 
 
 ## Parameters
-- Under each folder, there are 10 json format config files (in folder configs/) corresponding to the 10 folds in cross-validation, make sure to adjust parameters simultaneously for all the 10 files (manually at present but you can change to a generator or define arguments or define them in the main python file).  
+- Under each folder, there is json format config file to change the hyperparameters.  
+- Change the model type by specifying gcn or gat in the config file as you like.  
 - In patient_loader.py under each folder (in folder data_loader/), you can also set REDUCE_GRAPH_FEATURES as True or False to enable hiv positive rate and syphilis positive rate of neighborhood as features.
 
 ## Run
