@@ -1,8 +1,8 @@
 # GCN-HIV
-code for JAMI paper "Network context matters: graph convolutional network model over social networks improves the detection of unknown HIV infections among young men who have sex with men"
+code for JAMIA paper "Network context matters: graph convolutional network model over social networks improves the detection of unknown HIV infections among young men who have sex with men"
 
 ## Introduction
-See the JAMIA paper for details, to detect risk individuals in a social network.  
+See the JAMIA paper for details, to detect risk individuals in a social network using GNN-based models.  
 
 ## Data
 Need a social network stored using adjacency matrix and a matrix of individual variables  
