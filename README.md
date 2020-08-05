@@ -17,7 +17,7 @@ Need a social network stored using adjacency matrix and a matrix of individual v
 
 ## Implementation
 ### Packages
-scipy, scikit-learn, numpy, tensorflow1
+Python3.6+, Tensorflow1.14+ and corresponding versions of scipy, scikit-learn, numpy, 
 
 ## Parameters
 - You can change parameters and definitely you have to change parameters to get the optimal results.  
